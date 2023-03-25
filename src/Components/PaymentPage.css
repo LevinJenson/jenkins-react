@@ -1,0 +1,108 @@
+.main-area-body{
+    margin-top: 30px;
+   
+    border: 1px solid rgb(26, 25, 25)
+}
+.main-area-second-body{
+    margin-top: 10px;
+    border: 1px solid rgb(83, 81, 81);
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+.left-side{
+    background-color:rgb(234, 236, 236);
+    border: 1px solid rgb(26, 25, 25) ;
+    margin-left: 10px;
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.left-side p{
+    cursor: pointer;
+    text-align: left;
+    margin-left: 10px;
+}
+.credit-card{
+    margin-top: 10px;
+}
+.middle{
+   margin-bottom: 10px;
+   margin-top: 10px;
+    
+}
+
+.options{
+    display: flex;
+    gap: 10px;
+}
+.option1{
+    font-family: sans-serif;
+    cursor: pointer;
+    color: blue;
+    font-weight: 700;
+}
+.option2{
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+}
+.inputBox {
+    margin: 15px 0;
+}
+.inputBox input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+.inputBox span {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family:sans-serif;
+    display: block;
+}
+.card-number{
+    text-align: left;
+    font-weight: bold;
+    font-family:sans-serif
+}
+.card-holder-name{
+    text-align: left;
+    font-weight: bold;
+    font-family:sans-serif
+}
+.flex {
+    display: flex;
+    gap: 15px;
+}
+.flex .inputBox {
+    margin-top: 5px;
+}
+.cancel-payment{
+    text-align: right;
+    color: blue;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.right-side{
+    margin: 10px 10px;
+    
+}
+.Amount-section{
+
+    border-top: 5px solid rgb(15, 150, 239) ;
+    border-left: 2px solid rgb(134, 200, 245) ;
+    border-right: 2px solid rgb(134, 200, 245) ;
+    border-bottom: 2px solid rgb(134, 200, 245) ;
+    padding-top: 20px;
+    margin: 30px 30px;
+}
+.amount{
+    font-weight: 600;
+    font-family: sans-serif;
+    background-color: rgb(134, 200, 245);
+    padding: 5px;
+    margin-bottom: 0px;
+}

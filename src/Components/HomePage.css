@@ -1,0 +1,171 @@
+.firstAdd {
+  width: 100%;
+  height: auto;
+  width: fit-content;
+  margin-top: 100px;
+
+}
+
+.firstAdd:hover {
+  border: 1px solid gray;
+  filter: brightness(130%);
+  -webkit-filter: brightness(130%);
+  -moz-filter: brightness(130%);
+  -o-filter: brightness(130%);
+  -ms-filter: brightness(130%);
+  -webkit-transition: all 0.50s;
+  transition: all 0.50s;
+}
+
+/* card for show all items  css starts */
+
+body {
+  margin: 0px;
+  background-color: white;
+
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 2px 0;
+}
+
+.content {
+  height: 100%;
+  width: 20%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  /* border-radius: 20px; */
+  cursor: pointer;
+  padding-top: 10px;
+  /* box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.25); */
+  transition: 0.4s;
+  background: white;
+}
+
+.content:hover {
+  /* box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(0,0,0,0.23); */
+  transform: translate(0px, -8px);
+}
+
+.card-image {
+
+  height: none;
+  height: 150px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+p {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 0 8px;
+}
+
+button {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  padding: 0px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+  /* border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px; */
+}
+
+.buyNow {
+  background-color: #d1f8fc;
+}
+
+.deleteNow {
+  background-color: rgb(236, 77, 77);
+}
+
+@media(max-width:1000px) {
+  .content {
+    width: 45%;
+  }
+}
+
+@media(max-width:750px) {
+  .content {
+    width: 100%;
+  }
+}
+
+.flexible {
+  flex-grow: 1;
+}
+
+.flexible1 {
+  color: rgb(130, 130, 6);
+  font-weight: 500;
+}
+
+.flexible2 {
+  color: black;
+  font-size: 15px;
+}
+
+.flexible3 {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.flexible31 {
+  font-size: 12px;
+  font-weight: 300;
+}
+.flexible32{
+  font-size: 25px;
+  font-weight: 500;
+}
+.star-icon {
+  color: orange;
+}
+
+.add-item {
+  color: red;
+  cursor: pointer;
+}
+
+.logout {
+  cursor: pointer;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.categorirs {
+  margin-top: 30px;
+
+}
+
+/* delete pop up css  */
+
+#exampleModalLabel {
+  margin-right: 80px;
+  font-family: sans-serif;
+}
